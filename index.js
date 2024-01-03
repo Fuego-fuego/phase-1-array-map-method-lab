@@ -52,16 +52,9 @@ function sentenceCapitalize(sentence){
 
 
 // Array Titles Capitalize 
-function arrayStringsCapitalizer (array){
-
-  return array.map(sentenceCapitalize);
-
-}
-
-
 const titleCased = () => {  
   
-  return arrayStringsCapitalizer(tutorials);
+  return tutorials.map(sentenceCapitalize);
 }
 
 
